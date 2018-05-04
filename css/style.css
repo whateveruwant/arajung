@@ -1,0 +1,228 @@
+/* 헤더 */
+.header{
+  margin: 20px;
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+
+/* 고스트 버튼 (s)*/
+.ghost-button {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  padding: 10px;
+  color: #000;
+  border: 1px solid #000;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-size:1em;
+}
+
+/* .carousel-caption{
+  margin-bottom:15em;
+} */
+
+a {color : black;}
+a:focus { color: black; }
+a:hover { color: black; }
+/* 고스트 버튼 (e)*/
+
+
+
+/* 좌측 로고  */
+h2{
+   display:inline;
+}
+
+
+
+/* 하트 아이콘 */
+#heart_icon{
+  margin-bottom: 5px;
+}
+
+
+
+/* 제안 공약 텍스트 */
+#suggest_text{
+    font-size: 20px;
+    color: red;
+    /* margin-top:10px; */
+
+}
+
+#suggest_title{
+   font-size:18px;
+   margin-bottom: 25px;
+}
+
+#suggest_content{
+  font-size:15px;
+  color:gray;
+  margin-bottom: 25px;
+}
+
+#image_writer, #image_hit, #image_comment, #image_like, #image_more{
+  margin-bottom:4px;
+}
+
+
+/* 우측 버튼 그룹 (로그인, 회원가입) */
+#btn_login_group{
+  float: right;
+}
+
+#btn_comment, #btn_comment_no_login{
+  background-color: #4ee5c2;
+  color: white;
+  height: 40px;
+  font-size: 1.3em;
+}
+
+/* 네비바 */
+.nav{
+  margin-left: 30px;
+}
+
+.nav_item{
+  margin-right: 30px;
+  position: relative;
+}
+
+
+
+
+/* Title 밑줄제거 및 글자 색 검정으로 변경 (시작) */
+#brand_suggest{
+  text-decoration: none;
+  color:#666666;
+}
+
+#brand_suggest:hover{
+  text-decoration: none;
+  color:#666666;
+}
+
+#brand_suggest:focus{
+  text-decoration: none;
+  color:#666666;
+}
+/* Title 밑줄제거 및 글자 색 검정으로 변경 (끝) */
+
+
+
+/* 네비바 홈 밑줄제거 및 글자 색 검정으로 변경 (시작) */
+#nav_item_home{
+  text-decoration: none;
+  /* color:#9E9E9E; */
+  color:#000000;
+
+}
+
+
+#nav_item_home:after {
+   content: '';
+   width: 13px;
+   height: 1px;
+   display: block;
+   position: absolute;
+   margin-top: 4px;
+   border-bottom: 3px solid #F95759;
+}
+
+
+#nav_item_home2{
+  text-decoration: none;
+    color:#666666;
+}
+
+
+
+#nav_item_home3{
+  text-decoration: none;
+  color:#666666;
+}
+
+
+/* 후보1 */
+
+#nav_item_default1{
+  text-decoration: none;
+  /* color:#9E9E9E; */
+  color:#666666;
+
+}
+
+
+#nav_item_default2{
+  text-decoration: none;
+    color:#000000;
+}
+
+#nav_item_default2:after {
+  content: '';
+  width: 47px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-left:47px;
+  margin-top: 4px;
+  border-bottom: 3px solid #F95759;
+}
+
+
+
+#nav_item_default3{
+  text-decoration: none;
+  color:#666666;
+}
+
+
+
+/* 후보2 */
+#nav_item_default11{
+  text-decoration: none;
+  /* color:#9E9E9E; */
+  color:#666666;
+
+}
+
+
+#nav_item_default22{
+  text-decoration: none;
+    color:#666666;
+}
+
+
+#nav_item_default33{
+  text-decoration: none;
+  color:#000000;
+}
+
+#nav_item_default33:after {
+  content: '';
+  width: 50px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-left:128px;
+  margin-top: 4px;
+  border-bottom: 3px solid #F95759;
+}
+
+
+
+/* Title 밑줄제거 및 글자 색 검정으로 변경 (끝) */
+
+
+#btn_add_group{
+  float: right;
+}
+
+
+#nav_item_admin{
+  float:right;
+  margin-right:30px;
+}
