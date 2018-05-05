@@ -319,7 +319,7 @@
                $.ajax({
                   url: '../suggest_insert.php',
                   type: 'POST',
-                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'후보자1'},
+                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'남양주시'},
                   dataType: 'html',
                   success: function(data){
 
@@ -342,7 +342,7 @@
         // 시작 할 때 불러오기
        $(document).ready(function(){
          var url="../suggest_item_list.php";
-         $.get(url, {candidate:'후보자1'}, function(args){
+         $.get(url, {candidate:'남양주시'}, function(args){
            $("#suggest_item_list").html(args);
          });
        });
