@@ -26,6 +26,8 @@
 
     <script src="../js/jquery-2.2.4.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <link rel="shorcut icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
     <title>ARAJUNG</title>
     <style>
       h2{
