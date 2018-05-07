@@ -117,7 +117,7 @@
                             <h1 class="hero__title" style="font-size:50px">현명한 방법</h1>
 
 
-                            <p class="hero__text">대통령 잘 뽑는다고 생활이 달라지지 않습니다.</p>
+                            <p class="hero__text">투표를 잘 하면 환경이 바뀝니다.</p>
                             <p class="hero__text">정말 우리 생활과 밀접한 것은 지방선거입니다. </p>
                         </div>
                     </div>
@@ -221,12 +221,6 @@
                         </div><!-- End / title -->
 
                         <div class="mb-40">
-
-                            <!-- contact -->
-                            <div class="contact">
-                                <h3 class="contact__title">메세지</h3>
-                                <div>https://open.kakao.com/o/sz9VseM</div>
-                            </div><!-- End / contact -->
                             <!-- contact -->
                             <div class="contact">
                                 <h3 class="contact__title">이메일</h3>
@@ -235,7 +229,7 @@
                             <!-- contact -->
                             <div class="contact">
                                 <h3 class="contact__title">연락처</h3>
-                                <div>+82 10 4752 9676</div>
+                                <div>010-4752-9676</div>
                             </div><!-- End / contact -->
 
                         </div>
