@@ -117,9 +117,8 @@
                             <h1 class="hero__title" style="font-size:50px">현명한 방법</h1>
 
 
-                            <p class="hero__text">지역 내의 바라는 점들</p>
-                            <p class="hero__text">말하고 싶어도 방법을 몰라서, 말해도 바뀌지 않아서 간직하기만 했습니다.</p>
-                            <p class="hero__text">이제 목소리를 내야 할 때 입니다</p>
+                            <p class="hero__text">대통령 잘 뽑는다고 생활이 달라지지 않습니다.</p>
+                            <p class="hero__text">정말 우리 생활과 밀접한 것은 지방선거입니다. </p>
                         </div>
                     </div>
                 </div>
@@ -137,7 +136,8 @@
                         <p class="hero__text; color:#000;">1. 서울 시장 2. 서울시 의원 3. 송파 구청장 4. 송파구 의원 5. 서울시 교육감 6.서울시 의원 비례 7. 송파구 의원 비례</p>
                         <p class="hero__text; color:#000;">수원시민의 경우</p>
                         <p class="hero__text; color:#000;">1. 경기 도지사 2. 경기도 의원 3. 수원 시장 4. 수원시 의원 5. 경기도 교육감 6. 경기도 의원 비례 7. 수원시 의원 비례</p>
-                        <br />
+                        <p class="hero__text; color:#000;">총 7장에 투표합니다.</p>
+                        <br/>
                         <p class="hero__text; color:#000;">비례란? 사람이 아니라 정당을 뽑습니다. 득표가 많은 정당은 의원직에 특정 정당사람을 임명합니다.</p>
                         <p class="hero__text; color:#000;">이렇게 당선된 의원은 개인의 선거운동이 아니라 정당의 득표율에 비례하여 임명 되므로 비례 대표라 합니다.</p>
                     </div>
@@ -155,7 +155,7 @@
 
                         <p class="hero__text; color:#000;">민주주의는 '누구나' 정치에 참여 할 수 있습니다.</p>
                         <p class="hero__text; color:#000;">간접민주주의는 대표를 선출하기 위해 '엘리트'들이 경쟁하는 방식입니다.</p>
-                        <p class="hero__text; color:#000;">하지만 지방선거는 무관심 속에 '엘리트가 아닌 아무나' 가 기초의원으로 선출 되는 일이 많습니다.</p>
+                        <p class="hero__text; color:#000;">하지만 지방선거는 무관심 속에 '엘리트가 아닌 아무나' 가 대표자로 선출되는 일이 많습니다.</p>
                         <p class="hero__text; color:#000;">내 지역의 목소리를 대변 해 줄 대표다운 대표를 선출 해야 합니다.</p>
                     </div>
                 </div>
@@ -201,7 +201,8 @@
                         <h1 class="hero__title" style="font-size:50px; color:#000;">'알아'서 하는</h1>
                         <h1 class="hero__title" style="font-size:50px; color:#000;">'정'치를 만듭니다.</h1>
                         <p class="hero__text; color:#000;">잘 알고 해야하고, 바르게 해야 합니다.</p>
-                        <p class="hero__text; color:#000;">유권자들이 만드는 P2P 정치, 아라정이 시작하겠습니다.</p>
+                        <p class="hero__text; color:#000;">유권자들이 만드는 P2P 정치, 아라정이 시작하겠습니다.
+</p>
                         <br />
                     </div>
                 </div>
