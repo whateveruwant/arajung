@@ -17,7 +17,22 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- PYM ADDING. START -->
+    <!-- Fonts-->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/pe-icon/pe-icon.css">
+    <!-- Vendors-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/swiper/swiper.css">
+    <!-- App & fonts-->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- PYM ADDING. END -->
+
+
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -82,13 +97,134 @@
            ?>
 
         </div>
-        <hr>
+        <br/>
 
-        <!-- 컨테이너 시작-->
-       <div class="container">
+        <div id="md-content">
+        <div class="hero" id="id-1" style="background-image: url('img/bg/8.jpg');">
+            <div class="hero__wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 ">
+                            <h1 class="hero__title" style="font-size:50px">지역사회를 발전시키는</h1>
+                            <h1 class="hero__title" style="font-size:50px">
+                                <!-- typing__module -->
+                                <div class="typing__module" data-options='{"typeSpeed":40}'>
+                                    <div class="typed-strings">
+                                        <span>THE</span><span>MORE</span><span>더</span>
+                                    </div><span class="typed"></span>
+                                </div><!-- End / typing__module -->
+                            </h1>
+                            <h1 class="hero__title" style="font-size:50px">현명한 방법</h1>
 
 
-       </div>  <!-- 컨테이너 끝-->
+                            <p class="hero__text">지역 내의 바라는 점들</p>
+                            <p class="hero__text">말하고 싶어도 방법을 몰라서, 말해도 바뀌지 않아서 간직하기만 했습니다.</p>
+                            <p class="hero__text">이제 목소리를 내야 할 때 입니다</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End / hero -->
+        <!-- Section -->
+        <section class="md-section bg-gray" id="id-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 ">
+                        <h1 class="hero__title" style="font-size:50px; color:#000;">내 지역의 대표를 선출합니다.</h1>
+
+
+                        <p class="hero__text; color:#000;">민주주의는 '누구나' 정치에 참여 할 수 있습니다.</p>
+                        <p class="hero__text; color:#000;">간접민주주의는 대표를 선출하기 위해 '엘리트'들이 경쟁하는 방식입니다.</p>
+                        <p class="hero__text; color:#000;">하지만 지방선거는 무관심 속에 '엘리트가 아닌 아무나' 가 기초의원으로 선출 되는 일이 많습니다.</p>
+                        <p class="hero__text; color:#000;">내 지역의 목소리를 대변 해 줄 대표다운 대표를 선출 해야 합니다.</p>
+                    </div>
+                </div>
+                <!-- swiper__module swiper-container -->
+                <div class="swiper__module swiper-container mt-50" data-options='{"slidesPerView":3,"spaceBetween":30,"autoplay":2000,"breakpoints":{"640":{"slidesPerView":1},"991":{"slidesPerView":2}}}'>
+                    <div class="swiper-wrapper">
+
+                        <!-- service -->
+                        <div class="service mb-0">
+                            <div class="service__icon"><i class="pe-7s-users"></i></div>
+                            <h3 class="service__title">Proposal</h3>
+                            <p class="service__text">의원에게 바라는 정책과 공약을 직접 제안합니다.</p>
+                            <p class="service__text">후보자가 일방적으로 제안하는 공약이 아니라</p>
+                            <p class="service__text">유권자와 함께 만들어가는 공약입니다.</p>
+                        </div><!-- End / service -->
+                        <!-- service -->
+                        <div class="service mb-0">
+                            <div class="service__icon"><i class="pe-7s-refresh-2"></i></div>
+                            <h3 class="service__title">FeedBack</h3>
+                            <p class="service__text">의원은 즉각적인 답변을 합니다. 공약이 이행 가능 한지 여부를 말해줍니다.</p>
+                            <p class="service__text">그에 따른 정책이 실행되는 과정을 보여줍니다.</p>
+                            <p class="service__text">당선 후 에도 지속적으로 의정활동을 추적합니다.</p>
+                        </div><!-- End / service -->
+                        <!-- service -->
+                        <div class="service mb-0">
+                            <div class="service__icon"><i class="pe-7s-news-paper"></i></div>
+                            <h3 class="service__title">Decide</h3>
+                            <p class="service__text">후보자 개인의 자질과 능력을 보고 뽑습니다.</p>
+                            <p class="service__text">유권자 분들의 선택을 돕습니다.</p>
+                        </div><!-- End / service -->
+                    </div>
+                </div><!-- End / swiper__module swiper-container -->
+
+            </div>
+        </section>
+        <!-- End / Section -->
+        <!-- Section -->
+        <section class="md-section" id="id-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 ">
+                        <h1 class="hero__title" style="font-size:50px; color:#000;">아라정은</h1>
+                        <h1 class="hero__title" style="font-size:50px; color:#000;">'알아'서 하는</h1>
+                        <h1 class="hero__title" style="font-size:50px; color:#000;">'정'치를 만듭니다.</h1>
+                        <p class="hero__text; color:#000;">잘 알고 해야하고, 바르게 해야 합니다.</p>
+                        <p class="hero__text; color:#000;">유권자들이 만드는 P2P 정치, 아라정이 시작하겠습니다.</p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End / Section -->
+        <!-- Section -->
+        <section class="md-section bg-gray" id="id-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 ">
+
+                        <!-- title -->
+                        <div class="title">
+                            <h2 class="title__title">직접 문의하기</h2>
+                        </div><!-- End / title -->
+
+                        <div class="mb-40">
+
+                            <!-- contact -->
+                            <div class="contact">
+                                <h3 class="contact__title">주소</h3>
+                                <div>용인 기흥구 덕영대로 1723, 경희대학교 국제캠퍼스</div>
+                            </div><!-- End / contact -->
+                            <!-- contact -->
+                            <div class="contact">
+                                <h3 class="contact__title">이메일</h3>
+                                <div><a href="">makeitpop@naver.com</a></div>
+                            </div><!-- End / contact -->
+                            <!-- contact -->
+                            <div class="contact">
+                                <h3 class="contact__title">연락처</h3>
+                                <div>+82 10 4752 9676</div>
+                            </div><!-- End / contact -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End / Section -->
+    </div>
+    <!-- 컨테이너 끝-->
 
 
 
@@ -161,9 +297,24 @@
         </div>
         </div>
       </div>
-        <!-- 회원가입 모달 -->
-
-
+      <!-- 회원가입 모달 -->
+    <!-- PYM ADDING. START -->
+    <!-- Vendors-->
+    
+    <script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery-one-page/jquery.nav.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/jquery.matchHeight/jquery.matchHeight.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="assets/vendors/masonry-layout/masonry.pkgd.js"></script>
+    <script type="text/javascript" src="assets/vendors/swiper/swiper.jquery.js"></script>
+    <script type="text/javascript" src="assets/vendors/menu/menu.js"></script>
+    <script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
+    <!-- App-->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!-- PYM ADDING. END -->
 
 
     <!-- 로그인 유효성 검사 및 로그인 -->
