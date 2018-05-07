@@ -124,7 +124,27 @@
                     </div>
                 </div>
             </div>
-        </div><!-- End / hero -->
+        </div>
+        <!-- End / hero -->
+        <!-- Section -->
+        <section class="md-section" id="id-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 ">
+                        <h1 class="hero__title" style="font-size:50px; color:#000;">선거는 다음과 같습니다.</h1>
+						<img src='image/vote.jpg')>
+                        <p class="hero__text; color:#000;">송파구민의 경우</p>
+                        <p class="hero__text; color:#000;">1. 서울 시장 2. 서울시 의원 3. 송파 구청장 4. 송파구 의원 5. 서울시 교육감 6.서울시 의원 비례 7. 송파구 의원 비례</p>
+                        <p class="hero__text; color:#000;">수원시민의 경우</p>
+                        <p class="hero__text; color:#000;">1. 경기 도지사 2. 경기도 의원 3. 수원 시장 4. 수원시 의원 5. 경기도 교육감 6. 경기도 의원 비례 7. 수원시 의원 비례</p>
+                        <br />
+                        <p class="hero__text; color:#000;">비례란? 사람이 아니라 정당을 뽑습니다. 득표가 많은 정당은 의원직에 특정 정당사람을 임명합니다.</p>
+                        <p class="hero__text; color:#000;">이렇게 당선된 의원은 개인의 선거운동이 아니라 정당의 득표율에 비례하여 임명 되므로 비례 대표라 합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End / Section -->
         <!-- Section -->
         <section class="md-section bg-gray" id="id-2">
             <div class="container">
@@ -203,13 +223,13 @@
 
                             <!-- contact -->
                             <div class="contact">
-                                <h3 class="contact__title">주소</h3>
-                                <div>용인 기흥구 덕영대로 1723, 경희대학교 국제캠퍼스</div>
+                                <h3 class="contact__title">메세지</h3>
+                                <div>https://open.kakao.com/o/s64o5dM</div>
                             </div><!-- End / contact -->
                             <!-- contact -->
                             <div class="contact">
                                 <h3 class="contact__title">이메일</h3>
-                                <div><a href="">makeitpop@naver.com</a></div>
+                                <div>help@arajung.com</a></div>
                             </div><!-- End / contact -->
                             <!-- contact -->
                             <div class="contact">
