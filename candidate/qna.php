@@ -28,7 +28,7 @@
     <script src="../js/bootstrap.min.js"></script>
     <link rel="shorcut icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
-   <title>ARAJUNG</title>
+    <title>ARAJUNG</title>
     <style>
       h2{
            font-family: 'Ubuntu', sans-serif;
@@ -48,7 +48,22 @@
             font-size:1.5em;
             color: #000000;
       }
+      #nav_item_default444{
+      text-decoration: none;
+      color:#000000;
+      }
+#nav_item_default444:after {
+  content: '';
+  width: 50px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-left:210px;
+  margin-top: 4px;
+  border-bottom: 3px solid #F95759;
+}
     </style>
+
 	</head>
   <body>
     <div class="header">
@@ -67,13 +82,13 @@
           ?>
       </span>
     </div>  <!-- 헤더 끝-->
-     <hr>
+        <hr>
 
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_default1" href="../index.php">홈</a></span>
-          <span class="nav_item"><a id="nav_item_default2" href="#">남양주시</a></span>
-          <span class="nav_item"><a id="nav_item_default3" href="candidate2.php">마포구</a></span>
-          <span class="nav_item"><a id="nav_item_default3" href="qna.php">문의하기</a></span>
+          <span class="nav_item"><a id="nav_item_default11" href="../index.php">홈</a></span>
+          <span class="nav_item"><a id="nav_item_default11" href="candidate1.php">남양주시</a></span>
+          <span class="nav_item"><a id="nav_item_default11" href="candidate2.php">마포구</a></span>
+          <span class="nav_item"><a id="nav_item_default444" href="#">문의하기</a></span>
         </div>
         <hr>
 
@@ -95,7 +110,7 @@
 
 
 
-          <p id="suggest_text">제안 공약</p>
+          <p id="suggest_text">문의 내용</p>
           <!-- 모든 공약 불러오기 -->
           <div id="suggest_item_list"></div>
 
@@ -173,8 +188,6 @@
         </div>
       </div>
         <!-- 회원가입 모달 -->
-
-
 
 
 
@@ -278,7 +291,7 @@
                        if(data=="success")
                        {
                          $("#login_Modal").hide();
-                        location.href="candidate1.php";
+                        location.href="candidate2.php";
                        }
                        else {  //data 값 fail를 반환
                          //로그인 실패
@@ -295,20 +308,20 @@
     </script>
 
 
-		<!-- 로그아웃 -->
-		<script>
-				function logout()
-				{
-					$.ajax({
-						 url: '../logout.php',
-						 type: 'POST',
-						 dataType: 'html',
-						 success: function(data){
-								location.href="candidate1.php";
-						 }
-					 });
-				}
-	 </script>
+    <!-- 로그아웃 -->
+    <script>
+        function logout()
+        {
+          $.ajax({
+             url: '../logout.php',
+             type: 'POST',
+             dataType: 'html',
+             success: function(data){
+                location.href="candidate2.php";
+             }
+           });
+        }
+   </script>
 
 
    <!-- 공약 추가하기 -->
@@ -320,7 +333,7 @@
                $.ajax({
                   url: '../suggest_insert.php',
                   type: 'POST',
-                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'남양주시'},
+                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>', 'id':'<?=$ses_id?>', 'candidate':'문의하기'},
                   dataType: 'html',
                   success: function(data){
 
@@ -343,7 +356,7 @@
         // 시작 할 때 불러오기
        $(document).ready(function(){
          var url="../suggest_item_list.php";
-         $.get(url, {candidate:'남양주시'}, function(args){
+         $.get(url, {candidate:'문의하기'}, function(args){
            $("#suggest_item_list").html(args);
          });
        });
@@ -403,7 +416,7 @@
                      if(data=="success")
                      {
                        $("#register_Modal").hide();
-                      location.href="candidate1.php";
+                      location.href="candidate2.php";
                      }
                      else if(data=="duplicate"){  //data 값 fail를 반환
                        //로그인 실패

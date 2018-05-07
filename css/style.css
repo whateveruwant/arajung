@@ -138,13 +138,10 @@ h2{
     color:#666666;
 }
 
-
-
 #nav_item_home3{
   text-decoration: none;
   color:#666666;
 }
-
 
 /* 후보1 */
 
@@ -172,14 +169,10 @@ h2{
   border-bottom: 3px solid #F95759;
 }
 
-
-
 #nav_item_default3{
   text-decoration: none;
   color:#666666;
 }
-
-
 
 /* 후보2 */
 #nav_item_default11{
@@ -211,8 +204,6 @@ h2{
   margin-top: 4px;
   border-bottom: 3px solid #F95759;
 }
-
-
 
 /* Title 밑줄제거 및 글자 색 검정으로 변경 (끝) */
 
