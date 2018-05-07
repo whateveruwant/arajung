@@ -225,7 +225,7 @@
                             <!-- contact -->
                             <div class="contact">
                                 <h3 class="contact__title">메세지</h3>
-                                <div>https://open.kakao.com/o/s64o5dM</div>
+                                <div>https://open.kakao.com/o/sz9VseM</div>
                             </div><!-- End / contact -->
                             <!-- contact -->
                             <div class="contact">
