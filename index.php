@@ -100,7 +100,7 @@
         <br/>
 
         <div id="md-content">
-        <div class="hero" id="id-1" style="background-image: url('img/bg/8.jpg');">
+        <div class="hero" id="id-1" style="background-image: url('assets/img/bg/8.jpg');">
             <div class="hero__wrapper">
                 <div class="container">
                     <div class="row">
