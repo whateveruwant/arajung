@@ -10,7 +10,7 @@
       <td width="15%">경력</td>
       <td width="15%">한마디말</td>
       <td width="5%">지역</td>
-      <td width="7%">목표</td>
+      <td width="7%">출마직</td>
       <td width="8%">가입일</td>
       <td width="5%">삭제</td>
 

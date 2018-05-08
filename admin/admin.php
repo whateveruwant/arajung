@@ -45,7 +45,7 @@
           <input type="text" id="candi_location" placeholder="예) 서울" />
           <br><br>
 
-          <span>목표 : </span>
+          <span>출마직 : </span>
           <input type="text" id="candi_goal" placeholder="예) 서울시장"/>
           <br><br>
 
@@ -57,15 +57,13 @@
           <input type="text" id="candi_age" />
           <br><br>
 
-          <span>학력 : </span>
-          <input type="text" id="candi_education" />
-          <br><br>
+          <p>학력 : </p>
+          <textarea id="candi_education" rows=5 cols=50></textarea>
+          <br>
 
           <span>사진 : </span>
           <input type="file"  id="candi_image" name="image">
           <br>
-
-
 
           <p>주요 경력 : </p>
           <textarea id="candi_carrer" rows=5 cols=50></textarea>
