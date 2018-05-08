@@ -241,6 +241,10 @@
                   </div>
 
                   <div class="form-group">
+                    출마직 : <strong><span id="candi_goal"> </span></strong>
+                  </div>
+
+                  <div class="form-group">
                     학력 : <strong><span id="candi_education"> </span></strong>
                   </div>
 
@@ -532,14 +536,15 @@
                 $("#candi_Modal").modal('show');
                 $('#candi_nick_name').text(data[0]);  //이름
                 $('#candi_age').text(data[1]);        //나이
-                $('#candi_education').text(data[2]);  //학력
-                $('#candi_carrer').html(data[3]);     //경력
-                $('#candi_one_word').html(data[4]);   //한 마디
+                $('#candi_goal').text(data[2]);       //출마직
+                $('#candi_education').text(data[3]);  //학력
+                $('#candi_carrer').html(data[4]);     //경력
+                $('#candi_one_word').html(data[5]);   //한 마디
 
 
-                if(data[5]!=null)  //후보자 사진이 있는 경우
+                if(data[6]!=null)  //후보자 사진이 있는 경우
                 {
-                  var image_path="./admin/" + data[5];
+                  var image_path="./admin/" + data[6];
                   $("#output").attr("src", image_path);
                 }
                 else {    //후보자 사진이 없는 경우 디폴트 이미지
