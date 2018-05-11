@@ -54,7 +54,7 @@
            font-size:1.2em;
       }
       #suggest_text{
-            font-family: 'Black Han Sans', sans-serif;
+            font-family: 'Jua', sans-serif;
             color: #F95759;
             font-size:2em;
       }
