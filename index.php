@@ -33,7 +33,7 @@
     <!-- PYM ADDING. END -->
 
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css?ver=1.1" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Jua|Nanum+Gothic" rel="stylesheet">
