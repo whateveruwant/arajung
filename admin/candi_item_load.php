@@ -16,12 +16,13 @@
 
 
     $age=$rows['age'];
+    $goal=$rows['goal'];    
     $education=$rows['education'];
     $carrer=nl2br($rows['carrer']);
     $one_word=nl2br($rows['one_word']);
     $image=$rows['image'];
 
-    $arr = Array($nick_name, $age, $education, $carrer, $one_word, $image);
+    $arr = Array($nick_name, $age, $goal, $education, $carrer, $one_word, $image);
     echo json_encode($arr);
 
  ?>
