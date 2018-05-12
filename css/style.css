@@ -100,7 +100,8 @@ h2{
 /* Title 밑줄제거 및 글자 색 검정으로 변경 (시작) */
 #brand_suggest{
   text-decoration: none;
-  color:#666666;
+  font-size:1.1em;
+  color:#000000;
 }
 
 #brand_suggest:hover{
@@ -133,7 +134,7 @@ h2{
    display: block;
    position: absolute;
    margin-top: 4px;
-   border-bottom: 3px solid #F95759;
+   border-bottom: 3px solid #000000;
 }
 
 
@@ -174,7 +175,7 @@ h2{
   position: absolute;
   margin-left:50px;
   margin-top: 4px;
-  border-bottom: 3px solid #F95759;
+  border-bottom: 3px solid #000000;
 }
 
 #nav_item_default3{
@@ -208,13 +209,13 @@ h2{
 
 #nav_item_default33:after {
   content: '';
-  width: 50px;
+  width: 35px;
   height: 1px;
   display: block;
   position: absolute;
-  margin-left:128px;
+  margin-left:137px;
   margin-top: 4px;
-  border-bottom: 3px solid #F95759;
+  border-bottom: 3px solid #000000;
 }
 
 #nav_item_default444{
@@ -231,7 +232,7 @@ h2{
     position: absolute;
     margin-left:210px;
     margin-top: 4px;
-    border-bottom: 3px solid #F95759;
+    border-bottom: 3px solid #000000;
   }
 /* Title 밑줄제거 및 글자 색 검정으로 변경 (끝) */
 
