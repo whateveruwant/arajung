@@ -44,26 +44,7 @@
     <link rel="shorcut icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
     <title>ARAJUNG</title>
-    <style>
-      h2{
-           font-family: 'Ubuntu', sans-serif;
-           color: #666666;
-      }
-      .nav_item{
-           font-family: 'Jua', sans-serif;
-           font-size:1.2em;
-      }
-      #suggest_text{
-            font-family: 'Jua', sans-serif;
-            color: #F95759;
-            font-size:2em;
-      }
-      #suggest_title{
-            font-family: 'Nanum Gothic', sans-serif;
-            font-size:1.5em;
-            color: #000000;
-      }
-    </style>
+
 
 	</head>
   <body>
