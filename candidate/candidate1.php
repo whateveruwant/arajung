@@ -18,7 +18,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/style.css?ver=1.1" rel="stylesheet">
+    <link href="../css/style.css?ver=1.3" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Jua|Nanum+Gothic" rel="stylesheet">
@@ -29,7 +29,21 @@
     <link rel="shorcut icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
    <title>ARAJUNG</title>
-
+    <style>
+      h2{
+           font-family: 'Ubuntu', sans-serif;
+           color: #666666;
+      }
+      .nav_item{
+           font-family: 'Jua', sans-serif;
+           font-size:1.2em;
+      }
+      #suggest_title{
+            font-family: 'Nanum Gothic', sans-serif;
+            font-size:1.5em;
+            color: #000000;
+      }
+    </style>
 	</head>
   <body>
     <div class="header">

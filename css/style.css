@@ -33,8 +33,7 @@ a:hover { color: black; }
 
 /* 좌측 로고  */
 h2{
-  font-family: 'Ubuntu', sans-serif;
-  color: #666666;
+   display:inline;
 }
 
 
@@ -48,17 +47,17 @@ h2{
 
 /* 제안 공약 텍스트 */
 #suggest_text{
-    font-family: 'Black Han Sans', sans-serif;
-    font-size: 2em;
+    font-size: 20px;
     color: #000000;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size:2em;
     /* margin-top:10px; */
 
 }
 
 #suggest_title{
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size:1.5em;
-  color: #000000;
+   font-size:18px;
+   margin-bottom: 25px;
 }
 
 #suggest_content{
@@ -90,8 +89,8 @@ h2{
 }
 
 .nav_item{
-  font-family: 'Jua', sans-serif;
-  font-size:1.2em;
+  margin-right: 30px;
+  position: relative;
 }
 
 
@@ -100,8 +99,7 @@ h2{
 /* Title 밑줄제거 및 글자 색 검정으로 변경 (시작) */
 #brand_suggest{
   text-decoration: none;
-  font-size:1.1em;
-  color:#000000;
+  color:#666666;
 }
 
 #brand_suggest:hover{
@@ -119,7 +117,6 @@ h2{
 
 /* 네비바 홈 밑줄제거 및 글자 색 검정으로 변경 (시작) */
 #nav_item_home{
-  margin-right:30px;  
   text-decoration: none;
   /* color:#9E9E9E; */
   color:#000000;
@@ -139,13 +136,11 @@ h2{
 
 
 #nav_item_home2{
-  margin-right:30px;  
   text-decoration: none;
     color:#666666;
 }
 
 #nav_item_home3{
-  margin-right:30px;  
   text-decoration: none;
   color:#666666;
 }
@@ -153,7 +148,6 @@ h2{
 /* 후보1 */
 
 #nav_item_default1{
-  margin-right:30px;  
   text-decoration: none;
   /* color:#9E9E9E; */
   color:#666666;
@@ -162,7 +156,6 @@ h2{
 
 
 #nav_item_default2{
-  margin-right:30px;  
   text-decoration: none;
     color:#000000;
 }
@@ -173,20 +166,18 @@ h2{
   height: 1px;
   display: block;
   position: absolute;
-  margin-left:50px;
+  margin-left:47px;
   margin-top: 4px;
   border-bottom: 3px solid #000000;
 }
 
 #nav_item_default3{
-  margin-right:30px;  
   text-decoration: none;
   color:#666666;
 }
 
 /* 후보2 */
 #nav_item_default11{
-  margin-right:30px;  
   text-decoration: none;
   /* color:#9E9E9E; */
   color:#666666;
@@ -195,45 +186,41 @@ h2{
 
 
 #nav_item_default22{
-  margin-right:30px;  
   text-decoration: none;
     color:#666666;
 }
 
 
 #nav_item_default33{
-  margin-right:30px;  
   text-decoration: none;
   color:#000000;
 }
 
 #nav_item_default33:after {
   content: '';
-  width: 35px;
+  width: 50px;
   height: 1px;
   display: block;
   position: absolute;
-  margin-left:137px;
+  margin-left:128px;
   margin-top: 4px;
   border-bottom: 3px solid #000000;
 }
-
 #nav_item_default444{
-  margin-right:30px;  
   text-decoration: none;
   color:#000000;
   }
+#nav_item_default444:after {
+content: '';
+width: 50px;
+height: 1px;
+display: block;
+position: absolute;
+margin-left:210px;
+margin-top: 4px;
+border-bottom: 3px solid #000000;
+}
 
-  #nav_item_default444:after {
-    content: '';
-    width: 50px;
-    height: 1px;
-    display: block;
-    position: absolute;
-    margin-left:210px;
-    margin-top: 4px;
-    border-bottom: 3px solid #000000;
-  }
 /* Title 밑줄제거 및 글자 색 검정으로 변경 (끝) */
 
 
