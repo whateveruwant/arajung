@@ -47,11 +47,6 @@
            font-family: 'Jua', sans-serif;
            font-size:1.2em;
       }
-      #suggest_text{
-            font-family: 'Black Han Sans', sans-serif;
-            color: #F95759;
-            font-size:2em;
-      }
       #suggest_title{
             font-family: 'Nanum Gothic', sans-serif;
             font-size:1.5em;
