@@ -74,8 +74,85 @@
 
         <!-- 컨테이너 시작-->
        <div class="container">
-
-
+          <p id="suggest_text">예비후보자</p>
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>가. 호평동, 평내동</td>
+                <td>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100123178" target="_blank">진진순</a>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100124818" target="_blank">임영신</a>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126167" target="_blank">박성찬</a>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128967" target="_blank">김성수</a>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130678" target="_blank">이진택</a>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100124667" target="_blank">김문유</a>
+                </td>
+              </tr>
+              <tr>
+                <td>나. 화도읍, 수동면</td>
+                <td>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128790" target="_blank">이영환</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129761" target="_blank">박진수</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100131230" target="_blank">신민철</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130123" target="_blank">이상기</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130934" target="_blank">양석은</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100131652" target="_blank">김명철</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126043" target="_blank">양수일</a>
+                </td>
+              </tr>
+              <tr>
+                <td>다. 별내면, 별내동</td>
+                <td>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129994" target="_blank">이창희</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130746" target="_blank">박영희</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128496" target="_blank">이도재</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100123346" target="_blank">장구진</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126179" target="_blank">이재명</a>
+                </td>
+              </tr>
+              <tr>
+                <td>라. 진접읍</td>
+                <td>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128364" target="_blank">장근환</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129747" target="_blank">김경겸</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130340" target="_blank">김지훈</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130770" target="_blank">김성진</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128404" target="_blank">안계창</a>
+                </td>
+              </tr>
+              <tr>
+                <td>마. 오남읍</td>
+                <td>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130664" target="_blank">백선아</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130891" target="_blank">이정애</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129987" target="_blank">이경숙</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130776" target="_blank">김정순</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130599" target="_blank">곽복추</a>
+                </td>
+              </tr>
+              <tr>
+                <td>바. 진건읍, 퇴계원면, 다산1동, 다산2동</td>
+                <td>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126134" target="_blank">전용균</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126638" target="_blank">김진희</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126223" target="_blank">우희동</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129086" target="_blank">원병일</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129253" target="_blank">김세진</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126191" target="_blank">김진만</a>
+                </td>
+              </tr>
+              <tr>
+                <td>사. 외부읍, 조인면, 금곡동, 양정동</td>
+                <td>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128268" target="_blank">이원호</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130985" target="_blank">이철영</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126349" target="_blank">장동훈</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100127286" target="_blank">김현택</a>
+                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130101" target="_blank">장선영</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
          <div id="btn_add_group">
          <?php
               if($ses_id=="")
@@ -87,9 +164,6 @@
               }
           ?>
         </div>
-
-
-
           <p id="suggest_text">제안 공약</p>
           <!-- 모든 공약 불러오기 -->
           <div id="suggest_item_list"></div>
