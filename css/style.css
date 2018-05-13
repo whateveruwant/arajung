@@ -198,11 +198,11 @@ h2{
 
 #nav_item_default33:after {
   content: '';
-  width: 50px;
+  width: 38px;
   height: 1px;
   display: block;
   position: absolute;
-  margin-left:128px;
+  margin-left:135px;
   margin-top: 4px;
   border-bottom: 3px solid #000000;
 }
