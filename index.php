@@ -113,8 +113,9 @@
                             <h1 class="hero__title" style="font-size:50px">현명한 방법</h1>
 
 
-                            <p class="hero__text">투표를 잘 하면 환경이 바뀝니다.</p>
-                            <p class="hero__text">정말 우리 생활과 밀접한 것은 지방선거입니다. </p>
+                            <p class="hero__text">우리생활과 밀접한 것은 지방선거입니다.</p>
+                            <p class="hero__text">저희 웹에 지역안건을 남겨주세요!</p>
+                            <p class="hero__text">적어도 멀쩡한 보도블럭을 갈아 엎진 않습니다.</p>
                         </div>
                     </div>
                 </div>
@@ -128,6 +129,8 @@
                     <div class="col-lg-8 ">
                         <h1 class="hero__title" style="font-size:50px; color:#000;">선거는 다음과 같습니다.</h1>
 						<img src='image/vote.jpg')>
+                        <br/>
+                        <p class="hero__text; color:#000;">송파구민은 지방선거에서 서울시장, 서울시의원, 송파구청장, 송파구의원, 서울시교육감 5자리를 뽑습니다.</p>
                     </div>
                 </div>
             </div>
@@ -139,12 +142,9 @@
                 <div class="row">
                     <div class="col-lg-8 ">
                         <h1 class="hero__title" style="font-size:50px; color:#000;">내 지역의 대표를 선출합니다.</h1>
-
-
-                        <p class="hero__text; color:#000;">민주주의는 '누구나' 정치에 참여 할 수 있습니다.</p>
-                        <p class="hero__text; color:#000;">간접민주주의는 대표를 선출하기 위해 '엘리트'들이 경쟁하는 방식입니다.</p>
-                        <p class="hero__text; color:#000;">하지만 지방선거는 무관심 속에 '엘리트가 아닌 아무나' 가 대표자로 선출되는 일이 많습니다.</p>
-                        <p class="hero__text; color:#000;">내 지역의 목소리를 대변 해 줄 대표다운 대표를 선출 해야 합니다.</p>
+                        <p class="hero__text; color:#000;">아무나 뽑지 마세요. 안 뽑지도 마세요.</p>
+                        <p class="hero__text; color:#000;">잘 뽑으시고 지역에 바라는 점을 남겨주세요.</p>
+                        <p class="hero__text; color:#000;">그리고 동네가 좋아지는것만 지켜보시면 됩니다.</p>
                     </div>
                 </div>
                 <!-- swiper__module swiper-container -->
@@ -181,24 +181,7 @@
         </section>
         <!-- End / Section -->
         <!-- Section -->
-        <section class="md-section" id="id-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 ">
-                        <h1 class="hero__title" style="font-size:50px; color:#000;">아라정은</h1>
-                        <h1 class="hero__title" style="font-size:50px; color:#000;">'알아'서 하는</h1>
-                        <h1 class="hero__title" style="font-size:50px; color:#000;">'정'치를 만듭니다.</h1>
-                        <p class="hero__text; color:#000;">잘 알고 해야하고, 바르게 해야 합니다.</p>
-                        <p class="hero__text; color:#000;">유권자들이 만드는 P2P 정치, 아라정이 시작하겠습니다.
-</p>
-                        <br />
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End / Section -->
-        <!-- Section -->
-        <section class="md-section bg-gray" id="id-5">
+        <section class="md-section" id="id-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 ">
