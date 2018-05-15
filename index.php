@@ -60,6 +60,13 @@
       }
     </style>
 
+    <!--조회수 확인 코드-->
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+    if(!wcs_add) var wcs_add = {};
+    wcs_add["wa"] = "8be1de322203b8";
+    wcs_do();
+    </script>
 	</head>
   <body>
     	 <div class="header">
