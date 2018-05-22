@@ -44,7 +44,7 @@
           echo  "<span style='cursor:pointer'><img id='image_like' src='image/like_2.svg' width=15 onclick='like()'>&nbsp; <span id='count'> $like_count</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
         }
         else {
-          echo  "<span><img id='image_like' src='image/like_2.svg' width=15'>&nbsp; <span id='count'> $like_count</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+          echo  "<span style='cursor:pointer' data-toggle='modal' href='#login_request_Modal'><img id='image_like' src='image/like_2.svg' width=15'>&nbsp; <span id='count'> $like_count</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
         }
 
         echo "<small>$regist_day </small>&nbsp;&nbsp;";
