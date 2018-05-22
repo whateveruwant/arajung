@@ -16,8 +16,8 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- PYM ADDING. START -->
     <!-- Fonts-->
@@ -59,16 +59,14 @@
             color: #000000;
       }
     </style>
-
-    <!--조회수 확인 코드-->
     <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
     <script type="text/javascript">
-    if(!wcs_add) var wcs_add = {};
-    wcs_add["wa"] = "8be1de322203b8";
-    wcs_do();
+        if(!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "8be1de322203b8";
+        wcs_do();
     </script>
 	</head>
-  <body>
+    <body>
     	 <div class="header">
           <h2><a id="brand_suggest" href="#">ARAJUNG</a></h2>
           <span id="btn_login_group">
@@ -293,7 +291,6 @@
       <!-- 회원가입 모달 -->
     <!-- PYM ADDING. START -->
     <!-- Vendors-->
-    
     <script type="text/javascript" src="assets/vendors/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="assets/vendors/imagesloaded/imagesloaded.pkgd.js"></script>
     <script type="text/javascript" src="assets/vendors/isotope-layout/isotope.pkgd.js"></script>
@@ -447,6 +444,5 @@
       location.href="./admin/admin.php";
     }
    </script>
-
   </body>
 </html>
