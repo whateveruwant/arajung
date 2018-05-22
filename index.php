@@ -200,7 +200,7 @@
                             <!-- contact -->
                             <div class="contact">
                                 <h3 class="contact__title">이메일</h3>
-                                <div>help@arajung.com</a></div>
+                                <div>makeitpop@naver.com</a></div>
                             </div><!-- End / contact -->
                             <!-- contact -->
                             <div class="contact">
