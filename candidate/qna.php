@@ -69,7 +69,7 @@
           <span class="nav_item"><a id="nav_item_default11" href="../index.php">홈</a></span>
           <span class="nav_item"><a id="nav_item_default11" href="candidate1.php">남양주시</a></span>
           <span class="nav_item"><a id="nav_item_default11" href="candidate2.php">마포구</a></span>
-          <span class="nav_item"><a id="nav_item_default444" href="#">문의하기</a></span>
+          <span class="nav_item"><a id="nav_item_default444" href="#">다른 지역</a></span>
         </div>
         <hr>
 
@@ -91,7 +91,7 @@
 
 
 
-          <p id="suggest_text">문의 내용</p>
+          <p id="suggest_text">원하는 정책을 올려주세요</p>
           <!-- 모든 공약 불러오기 -->
           <div id="suggest_item_list"></div>
 
@@ -314,7 +314,7 @@
                $.ajax({
                   url: '../suggest_insert.php',
                   type: 'POST',
-                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>', 'id':'<?=$ses_id?>', 'candidate':'문의하기'},
+                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>', 'id':'<?=$ses_id?>', 'candidate':'다른 지역'},
                   dataType: 'html',
                   success: function(data){
 
@@ -337,7 +337,7 @@
         // 시작 할 때 불러오기
        $(document).ready(function(){
          var url="../suggest_item_list.php";
-         $.get(url, {candidate:'문의하기'}, function(args){
+         $.get(url, {candidate:'다른 지역'}, function(args){
            $("#suggest_item_list").html(args);
          });
        });

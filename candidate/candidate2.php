@@ -69,7 +69,7 @@
           <span class="nav_item"><a id="nav_item_default11" href="../index.php">홈</a></span>
           <span class="nav_item"><a id="nav_item_default22" href="candidate1.php">남양주시</a></span>
           <span class="nav_item"><a id="nav_item_default33" href="#">마포구</a></span>
-          <span class="nav_item"><a id="nav_item_default22" href="qna.php">문의하기</a></span>
+          <span class="nav_item"><a id="nav_item_default22" href="qna.php">다른 지역</a></span>
         </div>
         <hr>
 
