@@ -27,7 +27,7 @@
 
 
             echo "<div class='list-group'>";
-            echo  "<h4 style='color:#F95759'><strong>$nick_name 답변</strong>&nbsp;&nbsp;<img style='cursor:pointer' id='image_more' src='image/more.svg' width=30 onclick='candi_more($num)'></h4><br>";
+            echo  "<h4 style='color:#273c75'><strong>$nick_name 답변</strong>&nbsp;&nbsp;<img style='cursor:pointer' id='image_more' src='image/more.svg' width=30 onclick='candi_more($num)'></h4><br>";
             echo  "<p id='suggest_content'>$content</p>";
             echo	"<small>$regist_day </small>&nbsp;&nbsp;";
             if(($ses_nick_name==$nick_name) or ($ses_nick_name=='관리자') )
