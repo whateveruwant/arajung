@@ -387,11 +387,18 @@
        $(document).ready(function()
         {
              $("#btn_suggest").click( function(event){
+               var formData = new FormData();
+               formData.append("title", $("#title").val());
+               formData.append("content", $("#content").val());
+               formData.append("image", $("#suggest_image")[0].files[0]);
+               formData.append("nick_name", '<?=$ses_nick_name?>');
+               formData.append("id", '<?=$ses_id?>');
+               formData.append("candidate", '남양주시');
 
                $.ajax({
                   url: '../suggest_insert.php',
                   type: 'POST',
-                  data:  {'title':$('#title').val(), 'content':$('#content').val(), 'image':$('#suggest_image')[0].files[0], 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'남양주시'},
+                  data:  formData,
                   dataType: 'html',
                   success: function(data){
 
