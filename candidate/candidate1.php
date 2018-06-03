@@ -391,10 +391,8 @@
                $.ajax({
                   url: '../suggest_insert.php',
                   type: 'POST',
-                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'image':$('#suggest_image')[0].files[0], 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'남양주시'},
+                  data:  {'title':$('#title').val(), 'content':$('#content').val(), 'image':$('#suggest_image')[0].files[0], 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'남양주시'},
                   dataType: 'html',
-                  processData: false,  //파일 첨부시 필수
-                  contentType: false,  //파일 첨부시 필수
                   success: function(data){
 
                         if(data=="success")
