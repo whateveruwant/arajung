@@ -296,11 +296,13 @@
                     <label for="title">제목</label>
                     <input class="form-control" id="title"></input>
                   </div>
-
-
                   <div class="form-group">
                     <label for="content">내용</label>
                     <textarea class="form-control" id="content" rows=5></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="content">사진</label>
+                    <input type="file" id="suggest_image">
                   </div>
                 </div>
 
@@ -389,7 +391,7 @@
                $.ajax({
                   url: '../suggest_insert.php',
                   type: 'POST',
-                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'남양주시'},
+                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'image':$('#suggest_image')[0].files[0], 'nick_name':'<?=$ses_nick_name?>' , 'id':'<?=$ses_id?>', 'candidate':'남양주시'},
                   dataType: 'html',
                   success: function(data){
 

@@ -31,9 +31,16 @@
         $hit=$rows['hit'];
         $comment_count=$rows['comment_count'];
         $like_count=$rows['like_count'];
+        $image=$rows['image'];
 
         echo "<div class='list-group'>";
         echo  "<p id='suggest_title'><strong>$title</strong></p>";
+
+        if($image != null)
+        {
+          echo  "<p id='suggest_title'><strong>$title</strong></p>";
+        }
+
         echo  "<p id='suggest_content'>$content</p>";
         echo	"<p><img id='image_writer' src='image/writer.svg' width=15> $nick_name</p>";
         echo	"<span><img id='image_hit' src='image/hit.svg' width=15>&nbsp;  $hit</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
