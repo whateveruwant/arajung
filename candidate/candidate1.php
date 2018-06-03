@@ -400,6 +400,8 @@
                   type: 'POST',
                   data:  formData,
                   dataType: 'html',
+                  processData: false,  //파일 첨부시 필수
+                  contentType: false,  //파일 첨부시 필수
                   success: function(data){
 
                         if(data=="success")
