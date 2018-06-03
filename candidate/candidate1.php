@@ -302,7 +302,7 @@
                   </div>
                   <div class="form-group">
                     <label for="content">사진</label>
-                    <input type="file" id="suggest_image">
+                    <input type="file" id="suggest_image" name="suggest_image">
                   </div>
                 </div>
 
@@ -406,7 +406,7 @@
 
                         if(data=="success")
                         {
-
+                          alert('등록 성공');
                         }
                         else {
                           alert('등록 실패');
