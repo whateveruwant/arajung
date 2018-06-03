@@ -38,7 +38,7 @@
 
         if($image != null)
         {
-          echo  "<p id='suggest_title'><strong>$title</strong></p>";
+          echo  "<img src='suggest_image/1.jpg' style='width: 100%; height: auto;'>";
         }
 
         echo  "<p id='suggest_content'>$content</p>";
