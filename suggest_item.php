@@ -31,14 +31,14 @@
         $hit=$rows['hit'];
         $comment_count=$rows['comment_count'];
         $like_count=$rows['like_count'];
-        $image=$rows['image'];
+        $image=htmlspecialchars($rows['image'], ENT_QUOTES);
 
         echo "<div class='list-group'>";
         echo  "<p id='suggest_title'><strong>$title</strong></p>";
 
         if($image != null)
         {
-          echo  "<img src='suggest_image/1.jpg' style='width: 100%; height: auto;'>";
+          echo  "<img src='$image' style='width: 100%; height: auto;'>";
         }
 
         echo  "<p id='suggest_content'>$content</p>";

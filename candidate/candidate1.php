@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Jua|Nanum+Gothic" rel="stylesheet">
 
-
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="../js/jquery-2.2.4.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="shorcut icon" href="http://www.arajung.com/favicon.ico" type="image/x-icon" />
@@ -300,12 +300,10 @@
                     <label for="content">내용</label>
                     <textarea class="form-control" id="content" rows=5></textarea>
                   </div>
-                  <!--
-                    <div class="form-group">
+                  <div class="form-group">
                     <label for="content">사진</label>
                     <input type="file" id="suggest_image" name="suggest_image">
                   </div>
-                   -->
                   
                 </div>
 
@@ -393,7 +391,7 @@
                var formData = new FormData();
                formData.append("title", $("#title").val());
                formData.append("content", $("#content").val());
-               //formData.append("image", $("#suggest_image")[0].files[0]);
+               formData.append("image", $("#suggest_image")[0].files[0]);
                formData.append("nick_name", '<?=$ses_nick_name?>');
                formData.append("id", '<?=$ses_id?>');
                formData.append("candidate", '남양주시');
