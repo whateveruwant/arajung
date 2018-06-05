@@ -89,7 +89,7 @@
           <span class="nav_item"><a id="nav_item_home" href="#">홈</a></span>
           <span class="nav_item"><a id="nav_item_home2" href="./candidate/candidate1.php">남양주시</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">마포구</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/qna.php">다른 지역</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/qna.php">공지사항</a></span>
           <?php
                 if($ses_id=='admin')
                 {

@@ -78,7 +78,7 @@
        <span class="nav_item"><a id="nav_item_default1" href="index.php">홈</a></span>
        <span class="nav_item"><a id="nav_item_default1" href="./candidate/candidate1.php">남양주시</a></span>
        <span class="nav_item"><a id="nav_item_default1" href="./candidate/candidate2.php">마포구</a></span>
-       <span class="nav_item"><a id="nav_item_default1" href="./candidate/qna.php">다른 지역</a></span>
+       <span class="nav_item"><a id="nav_item_default1" href="./candidate/qna.php">공지사항</a></span>
      </div>
      <hr>
 
@@ -222,7 +222,7 @@
 
                 <div class="modal-body">
                   <div class="form-group">
-                    <img id="output" src="#" width=200/>
+                    <img id="output" src="#" width=550/>
                   </div>
 
 
@@ -244,14 +244,14 @@
                   </div>
 
 
-                  <div class="form-group">
+                  <!-- <div class="form-group">
                     경력 : <strong><p id="candi_carrer"> </p></strong>
                   </div>
 
                   <div class="form-group">
                     한 마디 : <strong><p id="candi_one_word"> </p></strong>
                   </div>
-                </div>
+                </div> -->
 
                 <div class="modal-footer">
                   <div class="btn-group btn-group-justified" role="group" aria-label="group button">

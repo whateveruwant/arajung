@@ -69,13 +69,13 @@
           <span class="nav_item"><a id="nav_item_default11" href="../index.php">홈</a></span>
           <span class="nav_item"><a id="nav_item_default22" href="candidate1.php">남양주시</a></span>
           <span class="nav_item"><a id="nav_item_default33" href="#">마포구</a></span>
-          <span class="nav_item"><a id="nav_item_default22" href="qna.php">다른 지역</a></span>
+          <span class="nav_item"><a id="nav_item_default22" href="qna.php">공지사항</a></span>
         </div>
         <hr>
 
         <!-- 컨테이너 시작-->
        <div class="container">
-          <p id="suggest_text">예비후보자</p>
+          <p id="suggest_text">후보자</p>
           <table class="table">
             <tbody>
               <tr>
@@ -295,12 +295,15 @@
                     <label for="title">제목</label>
                     <input class="form-control" id="title"></input>
                   </div>
-
-
                   <div class="form-group">
                     <label for="content">내용</label>
                     <textarea class="form-control" id="content" rows=5></textarea>
                   </div>
+                  <div class="form-group">
+                    <label for="content">사진</label>
+                    <input type="file" id="suggest_image" name="suggest_image">
+                  </div>
+                  
                 </div>
 
                 <div class="modal-footer">
@@ -384,17 +387,26 @@
        $(document).ready(function()
         {
              $("#btn_suggest").click( function(event){
+               var formData = new FormData();
+               formData.append("title", $("#title").val());
+               formData.append("content", $("#content").val());
+               formData.append("image", $("#suggest_image")[0].files[0]);
+               formData.append("nick_name", '<?=$ses_nick_name?>');
+               formData.append("id", '<?=$ses_id?>');
+               formData.append("candidate", '마포구');
 
                $.ajax({
                   url: '../suggest_insert.php',
                   type: 'POST',
-                  data:  {'title':$('#title').val()  ,'content':$('#content').val(), 'nick_name':'<?=$ses_nick_name?>', 'id':'<?=$ses_id?>', 'candidate':'마포구'},
+                  data:  formData,
                   dataType: 'html',
+                  processData: false,  //파일 첨부시 필수
+                  contentType: false,  //파일 첨부시 필수
                   success: function(data){
 
                         if(data=="success")
                         {
-
+                          alert('등록 성공');
                         }
                         else {
                           alert('등록 실패');
@@ -405,6 +417,7 @@
             });
         });
    </script>
+
 
     <!-- 모든 공약 불러오기 -->
    <script>

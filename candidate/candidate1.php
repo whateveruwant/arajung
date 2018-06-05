@@ -68,13 +68,13 @@
           <span class="nav_item"><a id="nav_item_default1" href="../index.php">홈</a></span>
           <span class="nav_item"><a id="nav_item_default2" href="#">남양주시</a></span>
           <span class="nav_item"><a id="nav_item_default3" href="candidate2.php">마포구</a></span>
-          <span class="nav_item"><a id="nav_item_default3" href="qna.php">다른 지역</a></span>
+          <span class="nav_item"><a id="nav_item_default3" href="qna.php">공지사항</a></span>
         </div>
         <hr>
 
         <!-- 컨테이너 시작-->
        <div class="container">
-          <p id="suggest_text">예비후보자</p>
+          <p id="suggest_text">후보자</p>
           <table class="table">
             <tbody>
               <tr>
