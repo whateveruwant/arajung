@@ -79,12 +79,13 @@
 
          <div id="btn_add_group">
          <?php
-              if($ses_id=="")
+              if($ses_id=="admin")
               {
-                   echo "<span style='cursor:pointer' data-toggle='modal' href='#login_request_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
+                   #echo "<span style='cursor:pointer' data-toggle='modal' href='#login_request_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
+                   echo "<span style='cursor:pointer' data-toggle='modal' href='#add_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
               }
               else{
-                    echo "<span style='cursor:pointer' data-toggle='modal' href='#add_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
+                    
               }
           ?>
         </div>
