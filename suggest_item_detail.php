@@ -222,7 +222,7 @@
 
                 <div class="modal-body">
                   <div class="form-group">
-                    <img id="output" src="#" width=550/>
+                    <img id="output" src="#" width=350/>
                   </div>
 
 
