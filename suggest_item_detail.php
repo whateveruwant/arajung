@@ -76,9 +76,8 @@
 
      <div class="nav">
        <span class="nav_item"><a id="nav_item_default1" href="index.php">홈</a></span>
+       <span class="nav_item"><a id="nav_item_default1" href="./candidate/qna.php">사용법</a></span>
        <span class="nav_item"><a id="nav_item_default1" href="./candidate/candidate1.php">남양주시</a></span>
-       <span class="nav_item"><a id="nav_item_default1" href="./candidate/candidate2.php">마포구</a></span>
-       <span class="nav_item"><a id="nav_item_default1" href="./candidate/qna.php">공지사항</a></span>
      </div>
      <hr>
 
