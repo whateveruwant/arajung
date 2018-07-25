@@ -70,6 +70,15 @@
           <span class="nav_item"><a id="nav_item_default444" href="#">사용법</a></span>
           <span class="nav_item"><a id="nav_item_default11" href="candidate1.php">남양주시</a></span>
           <!-- <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">마포구</a></span>-->
+          <?php
+              if($ses_id=="admin")
+              {
+                   #echo "<span style='cursor:pointer' data-toggle='modal' href='#login_request_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
+                   echo "<span style='cursor:pointer' data-toggle='modal' href='#add_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
+              }
+              else{
+              }
+          ?>
         </div>
         <hr>
 
@@ -78,17 +87,7 @@
 
 
          <div id="btn_add_group">
-         <?php
-              if($ses_id=="admin")
-              {
-                   #echo "<span style='cursor:pointer' data-toggle='modal' href='#login_request_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
-                   echo "<span style='cursor:pointer' data-toggle='modal' href='#add_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
-              }
-              else{
-                    
-              }
-
-          ?>
+         
         </div>
 
 
