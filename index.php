@@ -200,12 +200,7 @@
                             <!-- contact -->
                             <div class="contact">
                                 <h3 class="contact__title">이메일</h3>
-                                <div>makeitpop@naver.com</a></div>
-                            </div><!-- End / contact -->
-                            <!-- contact -->
-                            <div class="contact">
-                                <h3 class="contact__title">연락처</h3>
-                                <div>010-4752-9676</div>
+                                <div>helpara@naver.com</a></div>
                             </div><!-- End / contact -->
 
                         </div>
