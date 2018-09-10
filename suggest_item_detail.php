@@ -215,16 +215,16 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-            <h3 class="modal-title" id="lineModalLabel">후보자 소개</h3>
+            <h3 class="modal-title" id="lineModalLabel">프로필</h3>
           </div>
 
 
                 <div class="modal-body">
                   <div class="form-group">
-                    <img id="output" src="#" width=300/>
+                    <img id="output" src="#" width=550/>
                   </div>
 
-
+                  <!-- 
                   <div class="form-group">
                     이름 : <strong><span id="candi_nick_name"> </span></strong>
                   </div>
@@ -243,7 +243,7 @@
                   </div>
 
 
-                  <!-- <div class="form-group">
+                  <div class="form-group">
                     경력 : <strong><p id="candi_carrer"> </p></strong>
                   </div>
 

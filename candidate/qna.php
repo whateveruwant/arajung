@@ -276,7 +276,7 @@
                        if(data=="success")
                        {
                          $("#login_Modal").hide();
-                        location.href="candidate2.php";
+                        location.href="qna.php";
                        }
                        else {  //data 값 fail를 반환
                          //로그인 실패
@@ -302,7 +302,7 @@
              type: 'POST',
              dataType: 'html',
              success: function(data){
-                location.href="candidate2.php";
+                location.href="qna.php";
              }
            });
         }
@@ -410,7 +410,7 @@
                      if(data=="success")
                      {
                        $("#register_Modal").hide();
-                      location.href="candidate2.php";
+                      location.href="qna.php";
                      }
                      else if(data=="duplicate"){  //data 값 fail를 반환
                        //로그인 실패

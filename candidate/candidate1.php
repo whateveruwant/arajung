@@ -43,14 +43,6 @@
             font-size:1.5em;
             color: #000000;
       }
-      /* 예산 텍스트 */
-      #impact_text{
-        font-size: 20px;
-        color: red;
-        font-family: 'Black Han Sans', sans-serif;
-        font-size:2em;
-        /* margin-top:10px; */
-      }
     </style>
 	</head>
   <body>
@@ -82,7 +74,6 @@
 
         <!-- 컨테이너 시작-->
        <div class="container">
-          <p id="impact_text" align="center">1조4246억원</p>
           <p id="suggest_text">남양주시의원</p>
           <table class="table">
             <tbody>
