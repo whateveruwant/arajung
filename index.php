@@ -108,12 +108,7 @@
                         <div class="col-lg-8 ">
                             <h1 class="hero__title" style="font-size:50px">지역사회를 발전시키는</h1>
                             <h1 class="hero__title" style="font-size:50px">
-                                <!-- typing__module -->
-                                <div class="typing__module" data-options='{"typeSpeed":40}'>
-                                    <div class="typed-strings">
-                                        <span>THE</span><span>MORE</span><span>더</span>
-                                    </div><span class="typed"></span>
-                                </div><!-- End / typing__module -->
+                                <span>더 </span><span>THE </span><span>MORE</span>
                             </h1>
                             <h1 class="hero__title" style="font-size:50px">현명한 방법</h1>
 
@@ -193,7 +188,7 @@
 
                         <!-- title -->
                         <div class="title">
-                            <h2 class="title__title">직접 문의하기</h2>
+                            <h2 class="title__title">문의하기</h2>
                         </div><!-- End / title -->
 
                         <div class="mb-40">
