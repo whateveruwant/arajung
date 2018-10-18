@@ -90,10 +90,7 @@ h2{
 
 .nav_item{
   margin-right: 30px;
-  margin-top: 5px;
-  margin-bottom: 5px;
   position: relative;
-  font-size:10px;
 }
 
 
@@ -123,6 +120,9 @@ h2{
   text-decoration: none;
   /* color:#9E9E9E; */
   color:#000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size:20px;
 
 }
 
@@ -135,6 +135,9 @@ h2{
 #nav_item_home3{
   text-decoration: none;
   color:#666666;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size:20px;
 }
 
 /* 후보1 */
