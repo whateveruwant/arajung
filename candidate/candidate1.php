@@ -145,7 +145,7 @@
               }
           ?>
         </div>
-          <p id="suggest_text">바라는 점</p>
+          <p id="suggest_text">시행정</p>
           <!-- 모든 공약 불러오기 -->
           <div id="suggest_item_list"></div>
 

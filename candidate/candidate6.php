@@ -145,7 +145,7 @@
               }
           ?>
         </div>
-          <p id="suggest_text">바라는 점</p>
+          <p id="suggest_text">환경건설</p>
           <!-- 모든 공약 불러오기 -->
           <div id="suggest_item_list"></div>
 
@@ -375,7 +375,7 @@
                formData.append("image", $("#suggest_image")[0].files[0]);
                formData.append("nick_name", '<?=$ses_nick_name?>');
                formData.append("id", '<?=$ses_id?>');
-               formData.append("candidate", '남양주시');
+               formData.append("candidate", '환경건설');
 
                $.ajax({
                   url: '../suggest_insert.php',
@@ -405,7 +405,7 @@
         // 시작 할 때 불러오기
        $(document).ready(function(){
          var url="../suggest_item_list.php";
-         $.get(url, {candidate:'남양주시'}, function(args){
+         $.get(url, {candidate:'환경건설'}, function(args){
            $("#suggest_item_list").html(args);
          });
        });
