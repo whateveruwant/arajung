@@ -66,8 +66,12 @@
 
         <div class="nav">
           <span class="nav_item"><a id="nav_item_default1" href="../index.php">홈</a></span>
-          <span class="nav_item"><a id="nav_item_default3" href="qna.php">사용법</a></span>
-          <span class="nav_item"><a id="nav_item_default2" href="#">남양주시</a></span>
+          <span class="nav_item"><a id="nav_item_home" href="#">시행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate2.php">복지문화</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate5.php">보건교육</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate6.php">환경건설</a></span>
           <!-- <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">마포구</a></span>-->
         </div>
         <hr>

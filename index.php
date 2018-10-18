@@ -87,8 +87,12 @@
 
         <div class="nav">
           <span class="nav_item"><a id="nav_item_home" href="#">홈</a></span>
-          <span class="nav_item"><a id="nav_item_home2" href="./candidate/qna.php">사용법</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate1.php">남양주시</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate1.php">시행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">복지문화</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate3.php">산업</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate4.php">행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate5.php">보건교육</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate6.php">환경건설</a></span>
           <!-- <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">마포구</a></span>-->
           <?php
                 if($ses_id=='admin')
@@ -139,14 +143,6 @@
         <!-- Section -->
         <section class="md-section bg-gray" id="id-2">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 ">
-                        <h1 class="hero__title" style="font-size:50px; color:#000;">내 지역의 대표를 선출합니다.</h1>
-                        <p class="hero__text; color:#000;">아무나 뽑지 마세요. 안 뽑지도 마세요.</p>
-                        <p class="hero__text; color:#000;">잘 뽑으시고 지역에 바라는 점을 남겨주세요.</p>
-                        <p class="hero__text; color:#000;">그리고 동네가 좋아지는것만 지켜보시면 됩니다.</p>
-                    </div>
-                </div>
                 <!-- swiper__module swiper-container -->
                 <div class="swiper__module swiper-container mt-50" data-options='{"slidesPerView":3,"spaceBetween":30,"autoplay":2000,"breakpoints":{"640":{"slidesPerView":1},"991":{"slidesPerView":2}}}'>
                     <div class="swiper-wrapper">
