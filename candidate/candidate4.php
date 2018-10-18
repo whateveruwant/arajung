@@ -85,52 +85,59 @@
               <tr>
               <td>호평동, 평내동</td>
                 <td>
-                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126167" target="_blank">박은경</a>
-                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126167" target="_blank">박성찬</a>
-                </td>
+                  <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8010" target="_blank">박은경</a>
+                  <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=6020" target="_blank">박성찬</a>
+               </td>
               </tr>
               <tr>
                 <td>화도읍, 수동면</td>
                 <td>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128790" target="_blank">이영환</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100131230" target="_blank">신민철</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130123" target="_blank">이상기</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8020" target="_blank">이영환</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=6030" target="_blank">신민철</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8030" target="_blank">이상기</a>
                 </td>
               </tr>
               <tr>
                 <td>별내면, 별내동</td>
                 <td>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129994" target="_blank">이창희</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128496" target="_blank">이도재</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=7060" target="_blank">이창희</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=7050" target="_blank">이도재</a>
                 </td>
               </tr>
               <tr>
                 <td>진접읍</td>
                 <td>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100128364" target="_blank">장근환</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130340" target="_blank">김지훈</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8040" target="_blank">장근환</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8050" target="_blank">김지훈</a>
                 </td>
               </tr>
               <tr>
                 <td>오남읍</td>
                 <td>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130664" target="_blank">백선아</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130891" target="_blank">이정애</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8060" target="_blank">백선아</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=5080" target="_blank">이정애</a>
                 </td>
               </tr>
               <tr>
                 <td>진건읍, 퇴계원면, 다산1동, 다산2동</td>
                 <td>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126134" target="_blank">전용균</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126638" target="_blank">김진희</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100129086" target="_blank">원병일</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8070" target="_blank">전용균</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8080" target="_blank">김진희</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=6050" target="_blank">원병일</a>
                 </td>
               </tr>
               <tr>
                 <td>외부읍, 조인면, 금곡동, 양정동</td>
                 <td>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100130985" target="_blank">이철영</a>
-                    <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100127286" target="_blank">김현택</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=7020" target="_blank">이철영</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=5040" target="_blank">김현택</a>
+                </td>
+              </tr>
+              <tr>
+                <td>비례대표</td>
+                <td>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8100" target="_blank">김영실</a>
+                    <a href="http://www.nyjc.go.kr/include/memberProfile.html?daesu=8&mcode=8090" target="_blank">최성임</a>
                 </td>
               </tr>
             </tbody>
