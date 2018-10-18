@@ -33,7 +33,7 @@
     <!-- PYM ADDING. END -->
 
 
-    <link href="css/style.css?ver=1.3" rel="stylesheet">
+    <link href="css/style.css?ver=1.4" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Do+Hyeon|Jua|Nanum+Gothic" rel="stylesheet">
@@ -86,14 +86,15 @@
         <hr>
 
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_home" href="#">홈</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate1.php">시행정</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">복지문화</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate3.php">산업</a></span>
+        </div>
+        <div class="nav">
           <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate4.php">행정</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate5.php">보건교육</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate6.php">환경건설</a></span>
-          <!-- <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">마포구</a></span>-->
+          <!-- <span class="nav_item"><a id="nav_item_home3" href="./candidate/qna.php">Q&A</a></span>-->
           <?php
                 if($ses_id=='admin')
                 {
@@ -131,48 +132,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 ">
-                        <h1 class="hero__title" style="font-size:50px; color:#000;">선거는 다음과 같습니다.</h1>
-						<img src='image/vote.jpg')>
+                        <h1 class="hero__title" style="font-size:50px; color:#000;">남양주시 의회는</h1>
+						<img src='image/NYJ.jpg')>
                         <br/>
-                        <p class="hero__text; color:#000;">송파구민은 지방선거에서 서울시장, 서울시의원, 송파구청장, 송파구의원, 서울시교육감 5자리를 뽑습니다.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- End / Section -->
-        <!-- Section -->
-        <section class="md-section bg-gray" id="id-2">
-            <div class="container">
-                <!-- swiper__module swiper-container -->
-                <div class="swiper__module swiper-container mt-50" data-options='{"slidesPerView":3,"spaceBetween":30,"autoplay":2000,"breakpoints":{"640":{"slidesPerView":1},"991":{"slidesPerView":2}}}'>
-                    <div class="swiper-wrapper">
-
-                        <!-- service -->
-                        <div class="service mb-0">
-                            <div class="service__icon"><i class="pe-7s-users"></i></div>
-                            <h3 class="service__title">Proposal</h3>
-                            <p class="service__text">의원에게 바라는 정책과 공약을 직접 제안합니다.</p>
-                            <p class="service__text">후보자가 일방적으로 제안하는 공약이 아니라</p>
-                            <p class="service__text">유권자와 함께 만들어가는 공약입니다.</p>
-                        </div><!-- End / service -->
-                        <!-- service -->
-                        <div class="service mb-0">
-                            <div class="service__icon"><i class="pe-7s-refresh-2"></i></div>
-                            <h3 class="service__title">FeedBack</h3>
-                            <p class="service__text">의원은 즉각적인 답변을 합니다. 공약이 이행 가능 한지 여부를 말해줍니다.</p>
-                            <p class="service__text">그에 따른 정책이 실행되는 과정을 보여줍니다.</p>
-                            <p class="service__text">당선 후 에도 지속적으로 의정활동을 추적합니다.</p>
-                        </div><!-- End / service -->
-                        <!-- service -->
-                        <div class="service mb-0">
-                            <div class="service__icon"><i class="pe-7s-news-paper"></i></div>
-                            <h3 class="service__title">Decide</h3>
-                            <p class="service__text">후보자 개인의 자질과 능력을 보고 뽑습니다.</p>
-                            <p class="service__text">유권자 분들의 선택을 돕습니다.</p>
-                        </div><!-- End / service -->
-                    </div>
-                </div><!-- End / swiper__module swiper-container -->
-
             </div>
         </section>
         <!-- End / Section -->

@@ -75,10 +75,14 @@
      <hr>
 
      <div class="nav">
-       <span class="nav_item"><a id="nav_item_default1" href="index.php">홈</a></span>
-       <span class="nav_item"><a id="nav_item_default1" href="./candidate/qna.php">사용법</a></span>
-       <span class="nav_item"><a id="nav_item_default1" href="./candidate/candidate1.php">남양주시</a></span>
-     </div>
+       <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate1.php">시행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">복지문화</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate3.php">산업</a></span>
+        </div>
+        <div class="nav">
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate4.php">행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate5.php">보건교육</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate6.php">환경건설</a></span>  </div>
      <hr>
 
 

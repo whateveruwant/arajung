@@ -66,10 +66,11 @@
         <hr>
 
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_default11" href="../index.php">홈</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate1.php">시행정</a></span>
           <span class="nav_item"><a id="nav_item_home" href="#">복지문화</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업</a></span>
+        </div>
+        <div class="nav">
           <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate5.php">보건교육</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate6.php">환경건설</a></span>
@@ -82,9 +83,9 @@
           <table class="table">
             <tbody>
               <tr>
-                <td>호평동, 평내동</td>
+              <td>호평동, 평내동</td>
                 <td>
-                  <a >박은경</a>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126167" target="_blank">박은경</a>
                   <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126167" target="_blank">박성찬</a>
                 </td>
               </tr>

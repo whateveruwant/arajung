@@ -90,7 +90,10 @@ h2{
 
 .nav_item{
   margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   position: relative;
+  font-size:10px;
 }
 
 

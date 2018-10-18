@@ -65,10 +65,11 @@
      <hr>
 
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_default1" href="../index.php">홈</a></span>
           <span class="nav_item"><a id="nav_item_home" href="#">시행정</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate2.php">복지문화</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업</a></span>
+        </div>
+        <div class="nav">
           <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate5.php">보건교육</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate6.php">환경건설</a></span>
@@ -84,7 +85,7 @@
               <tr>
                 <td>호평동, 평내동</td>
                 <td>
-                  <a >박은경</a>
+                  <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126167" target="_blank">박은경</a>
                   <a href="http://info.nec.go.kr/electioninfo/precandidate_detail_info.xhtml?electionId=0020180613&huboId=100126167" target="_blank">박성찬</a>
                 </td>
               </tr>
@@ -375,7 +376,7 @@
                formData.append("image", $("#suggest_image")[0].files[0]);
                formData.append("nick_name", '<?=$ses_nick_name?>');
                formData.append("id", '<?=$ses_id?>');
-               formData.append("candidate", '남양주시');
+               formData.append("candidate", '시행정');
 
                $.ajax({
                   url: '../suggest_insert.php',
@@ -405,7 +406,7 @@
         // 시작 할 때 불러오기
        $(document).ready(function(){
          var url="../suggest_item_list.php";
-         $.get(url, {candidate:'남양주시'}, function(args){
+         $.get(url, {candidate:'시행정'}, function(args){
            $("#suggest_item_list").html(args);
          });
        });
