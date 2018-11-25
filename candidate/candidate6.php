@@ -66,12 +66,12 @@
         <hr>
 
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate1.php">시행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate1.php">시행정&nbsp;&nbsp;</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate2.php">복지문화</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
         </div>
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate5.php">보건교육</a></span>
           <span class="nav_item"><a id="nav_item_home" href="#">환경건설</a></span>
         </div>

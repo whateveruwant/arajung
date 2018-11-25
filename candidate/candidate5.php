@@ -66,12 +66,12 @@
         <hr>
 
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate1.php">시행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate1.php">시행정&nbsp;&nbsp;</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate2.php">복지문화</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
         </div>
         <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정</a></span>
+          <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
           <span class="nav_item"><a id="nav_item_home" href="#">보건교육</a></span>
           <span class="nav_item"><a id="nav_item_home3" href="./candidate6.php">환경건설</a></span>
         </div>
@@ -127,7 +127,7 @@
                 </td>
               </tr>
               <tr>
-                <td>외부읍, 조인면, 금곡동, 양정동</td>
+                <td>와부읍, 조안면, 금곡동, 양정동</td>
                 <td>
                     <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=7020" target="_blank">이철영</a>
                     <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=5040" target="_blank">김현택</a>
