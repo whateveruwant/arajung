@@ -142,17 +142,12 @@
               </tr>
             </tbody>
           </table>
-         <div id="btn_add_group">
-         <?php
-              if($ses_id=="")
-              {
-                   echo "<span style='cursor:pointer' data-toggle='modal' href='#login_request_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
-              }
-              else{
-                    echo "<span style='cursor:pointer' data-toggle='modal' href='#add_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
-              }
-          ?>
-        </div>
+          <?php
+                if($ses_id=='admin')
+                {
+                  echo "<span style='cursor:pointer' data-toggle='modal' href='#add_Modal'><img src='../image/plus-circle.svg' width='40' height='40'></span>";
+                }
+           ?>
           <p id="suggest_text">복지문화</p>
           <!-- 모든 공약 불러오기 -->
           <div id="suggest_item_list"></div>

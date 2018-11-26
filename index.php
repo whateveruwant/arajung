@@ -116,11 +116,9 @@
                                 <span>더 </span><span>THE </span><span>MORE</span>
                             </h1>
                             <h1 class="hero__title" style="font-size:50px">현명한 방법</h1>
-
-
-                            <p class="hero__text">우리생활과 밀접한 것은 지방선거입니다.</p>
+                            <!--<p class="hero__text">우리생활과 밀접한 것은 지방선거입니다.</p>
                             <p class="hero__text">저희 웹에 지역안건을 남겨주세요!</p>
-                            <p class="hero__text">적어도 멀쩡한 보도블럭을 갈아 엎진 않습니다.</p>
+                            <p class="hero__text">적어도 멀쩡한 보도블럭을 갈아 엎진 않습니다.</p>-->
                         </div>
                     </div>
                 </div>
@@ -134,7 +132,7 @@
                     <div class="col-lg-8 ">
                         <h1 class="hero__title" style="font-size:50px; color:#000;">남양주시 의회는</h1>
 						<img src='image/NYJ.jpg')>
-                        <h1 class="hero__title" style="font-size:50px; color:#000;">남양주시의 예산을 담당합니다.</h1>
+                        <h1 class="hero__title" style="font-size:24px; color:#000;">남양주시의 예산을 담당합니다.</h1>
                         <br/>
                     </div>
                 </div>
@@ -142,7 +140,7 @@
         </section>
         <!-- End / Section -->
         <!-- Section -->
-        <section class="md-section" id="id-5">
+        <section class="md-section bg-gray" id="id-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 ">
