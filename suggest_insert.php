@@ -18,9 +18,7 @@
         $upfile_tmp_name=$_FILES["image"]["tmp_name"];
         $upfile_size=$_FILES["image"]["size"];
         $upfile_error=$_FILES["image"]["error"];
-
-
-        $upload_dir='suggest_image/';
+        $upload_dir='./suggest_image/';
         
         if(!$upfile_error)  //1 반환, 업로드 크기 제한
         {
