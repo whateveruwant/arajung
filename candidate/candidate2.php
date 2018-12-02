@@ -34,7 +34,7 @@
            font-family: 'Ubuntu', sans-serif;
            color: #666666;
       }
-      .nav_item{
+      .nav-item{
            font-family: 'Jua', sans-serif;
            font-size:1.2em;
       }
@@ -63,19 +63,38 @@
           ?>
       </span>
     </div>  <!-- 헤더 끝-->
-        <hr>
-
-        <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate1.php">시행정&nbsp;&nbsp;</a></span>
-          <span class="nav_item"><a id="nav_item_home" href="#">복지문화</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate3.php">산업&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pym-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    남양주시 예산
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="pym-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate1.php">시행정</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">복지문화</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate3.php">산업</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate4.php">행정</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate5.php">보건교육</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate6.php">환경건설</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate4.php">행정&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate5.php">보건교육</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate6.php">환경건설</a></span>
-        </div>
-        <hr>
+        </nav>
 
         <!-- 컨테이너 시작-->
        <div class="container">

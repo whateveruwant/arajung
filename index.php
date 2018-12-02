@@ -49,7 +49,7 @@
            font-family: 'Ubuntu', sans-serif;
            color: #666666;
       }
-      .nav_item{
+      .nav-item{
            font-family: 'Jua', sans-serif;
            font-size:1.2em;
       }
@@ -83,27 +83,44 @@
              ?>
          </span>
        </div>  <!-- 헤더 끝-->
-        <hr>
-
-        <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate1.php">시행정&nbsp;&nbsp;</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate2.php">복지문화</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate3.php">산업&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pym-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    남양주시 예산
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="pym-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate/candidate1.php">시행정</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate/candidate2.php">복지문화</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate/candidate3.php">산업</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate/candidate4.php">행정</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate/candidate5.php">보건교육</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate/candidate6.php">환경건설</a>
+                    </li>
+                    <?php
+                        if($ses_id=='admin')
+                        {
+                        echo "<li class='nav_item'><a style='cursor:pointer' id='nav_item_admin' onclick='admin()'>관리자</a></li>";
+                        }
+                    ?>
+                </ul>
+            </div>
         </div>
-        <div class="nav">
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate4.php">행정&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate5.php">보건교육</a></span>
-          <span class="nav_item"><a id="nav_item_home3" href="./candidate/candidate6.php">환경건설</a></span>
-          <!-- <span class="nav_item"><a id="nav_item_home3" href="./candidate/qna.php">Q&A</a></span>-->
-          <?php
-                if($ses_id=='admin')
-                {
-                  echo "<span class='nav_item'><span style='cursor:pointer' id='nav_item_admin' onclick='admin()'>관리자</span></span>";
-                }
-           ?>
-
-        </div>
-        <br/>
+        </nav>
 
         <div id="md-content">
         <div class="hero" id="id-1" style="background-image: url('assets/img/bg/8.jpg');">
@@ -111,7 +128,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 ">
-                            <h1 class="hero__title" style="font-size:50px">지역사회를 발전시키는</h1>
+                            <h1 class="hero__title" style="font-size:50px">남양주시를 발전시키는</h1>
                             <h1 class="hero__title" style="font-size:50px">
                                 <span>더 </span><span>THE </span><span>MORE</span>
                             </h1>
@@ -140,7 +157,7 @@
         </section>
         <!-- End / Section -->
         <!-- Section -->
-        <section class="md-section bg-gray" id="id-5">
+        <section class="footer bg-gray" id="id-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 ">
@@ -152,9 +169,9 @@
 
                         <div class="mb-40">
                             <!-- contact -->
-                            <div class="contact">
+                            <div class="contact" style="color:#000;">
                                 <h3 class="contact__title">이메일</h3>
-                                <div>helpara@naver.com</a></div>
+                                <div>makeitpop@naver.com</a></div>
                             </div><!-- End / contact -->
 
                         </div>
