@@ -100,16 +100,13 @@
                         <a class="nav-link" href="./candidate/candidate2.php">복지문화</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./candidate/candidate3.php">산업</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./candidate/candidate4.php">행정</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="./candidate/candidate5.php">보건교육</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./candidate/candidate6.php">환경건설</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./candidate/qna.php">게시판</a>
                     </li>
                     <?php
                         if($ses_id=='admin')

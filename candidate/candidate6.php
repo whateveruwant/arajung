@@ -80,16 +80,13 @@
                         <a class="nav-link" href="./candidate2.php">복지문화</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./candidate3.php">산업</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./candidate4.php">행정</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="./candidate5.php">보건교육</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">환경건설</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./qna.php">게시판</a>
                     </li>
                 </ul>
             </div>
@@ -101,55 +98,55 @@
           <p id="suggest_text">남양주시의원</p>
           <table class="table">
             <tbody>
-              <tr>                         
+              <tr>
               <td>호평동, 평내동</td>
                 <td>
-                  <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8010" target="_blank">박은경</a>
-                  <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=6020" target="_blank">박성찬</a>
+                  <a href="https://www.evernote.com/l/Aalr48AGSXdEMZsh7Z5aXTrBWquPe4L2u5E/" target="_blank">박은경</a>
+                  <a href="https://www.evernote.com/l/AalzfcU_iQxESbZjl3QQMZcIMomDI0znuok/" target="_blank">박성찬</a>
                </td>
               </tr>
               <tr>
                 <td>화도읍, 수동면</td>
                 <td>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8020" target="_blank">이영환</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=6030" target="_blank">신민철</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8030" target="_blank">이상기</a>
+                    <a href="https://www.evernote.com/l/Aak02bRNVZ5HcKP-n-0DNyq3dFVKWv_ObJs/" target="_blank">이영환</a>
+                    <a href="https://www.evernote.com/l/Aak89386x89LSIJifCDeULLds7uU9hf3S-I/" target="_blank">신민철</a>
+                    <a href="https://www.evernote.com/l/AannxtR53CxBmK2_HKVTHptPL4kWMEscbi4/" target="_blank">이상기</a>
                 </td>
               </tr>
               <tr>
                 <td>별내면, 별내동</td>
                 <td>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=7060" target="_blank">이창희</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=7050" target="_blank">이도재</a>
+                    <a href="https://www.evernote.com/l/AamYPT_gaydK96gZWj7gxGrf-TimUYC_6-o/" target="_blank">이창희</a>
+                    <a href="https://www.evernote.com/l/Aam3WiI1CRlAGZXXji8QpchwNLTDmY6w9J8/" target="_blank">이도재</a>
                 </td>
               </tr>
               <tr>
                 <td>진접읍</td>
                 <td>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8040" target="_blank">장근환</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8050" target="_blank">김지훈</a>
+                    <a href="https://www.evernote.com/l/Aanh-uTQBq9HprsB7l_V37E-RbigNOHOAdU/" target="_blank">장근환</a>
+                    <a href="https://www.evernote.com/l/Aan1HgmV54BI96I-R8VSICsZX8f8-jUqtnw/" target="_blank">김지훈</a>
                 </td>
               </tr>
               <tr>
                 <td>오남읍</td>
                 <td>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8060" target="_blank">백선아</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=5080" target="_blank">이정애</a>
+                    <a href="https://www.evernote.com/l/Aame_ljkyx9Coa39v8fYkXuw5nFfDinJCbU/" target="_blank">백선아</a>
+                    <a href="https://www.evernote.com/l/AakQRUXLpdZL84j2SO8T7zP6r5Zy9RrFeNI/" target="_blank">이정애</a>
                 </td>
               </tr>
               <tr>
                 <td>진건읍, 퇴계원면, 다산1동, 다산2동</td>
                 <td>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8070" target="_blank">전용균</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=8080" target="_blank">김진희</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=6050" target="_blank">원병일</a>
+                    <a href="https://www.evernote.com/l/AamrMu2PpeBM07QCto20T2hui8vH0lDvGuk/" target="_blank">전용균</a>
+                    <a href="https://www.evernote.com/l/AandKJqFce9Ku41TKf9GRhL8RGpugs7Z58A/" target="_blank">김진희</a>
+                    <a href="https://www.evernote.com/l/AalM_Nd0pqhEPoF1zAH5AAALJtIYacUZqqM/" target="_blank">원병일</a>
                 </td>
               </tr>
               <tr>
                 <td>외부읍, 조인면, 금곡동, 양정동</td>
                 <td>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=7020" target="_blank">이철영</a>
-                    <a href="http://www.nyjc.go.kr/mobile/content/member/profile.html?daesu=8&m_code=5040" target="_blank">김현택</a>
+                    <a href="https://www.evernote.com/l/AamUay0pvhpHK5NlbmifcyKs3Xo6SQqsrXQ/" target="_blank">이철영</a>
+                    <a href="https://www.evernote.com/l/AanNFSWm60JPQaDj8MBf2JUXxSONnnV__iE/" target="_blank">김현택</a>
                 </td>
               </tr>
               <tr>
